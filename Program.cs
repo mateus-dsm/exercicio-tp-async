@@ -37,7 +37,7 @@
 				    break;
 			    }
             	await Task.Delay(1000);
-        }
+        	}
 
 		Console.WriteLine("Requisição completa!");
 		return InformacoesTempo;
