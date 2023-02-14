@@ -20,23 +20,23 @@
 				case "São Paulo":
 					InformacoesTempo.Add("Frio e chuvoso");
 					break;
-                case "Rio de Janeiro":
-                    InformacoesTempo.Add("Quente e ensolarado");
-                    break;
-                case "Brasília":
-                    InformacoesTempo.Add("Quente e nublado");
-                    break;
-                case "Manaus":
-                    InformacoesTempo.Add("Quente e chuvoso");
-                    break;
-                case "Porto Alegre":
-                    InformacoesTempo.Add("Frio e ensolarado");
-                    break;
-                case "Belo Horizonte":
-                    InformacoesTempo.Add("Frio e nublado");
-                    break;
-            }
-            await Task.Delay(1000);
+				case "Rio de Janeiro":
+				    InformacoesTempo.Add("Quente e ensolarado");
+				    break;
+				case "Brasília":
+				    InformacoesTempo.Add("Quente e nublado");
+				    break;
+				case "Manaus":
+				    InformacoesTempo.Add("Quente e chuvoso");
+				    break;
+				case "Porto Alegre":
+				    InformacoesTempo.Add("Frio e ensolarado");
+				    break;
+				case "Belo Horizonte":
+				    InformacoesTempo.Add("Frio e nublado");
+				    break;
+			    }
+            	await Task.Delay(1000);
         }
 
 		Console.WriteLine("Requisição completa!");
@@ -63,10 +63,10 @@ public class CityListReader
 		ListaCidades.Add("Brasília");
 		ListaCidades.Add("Manaus");
 		ListaCidades.Add("Porto Alegre");
-        ListaCidades.Add("Belo Horizonte");
+        	ListaCidades.Add("Belo Horizonte");
 
 		await Task.Delay(3000);
-        Console.WriteLine("Leitura completa!");
+        	Console.WriteLine("Leitura completa!");
 		return ListaCidades;
 	}
 }
