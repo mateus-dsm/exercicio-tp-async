@@ -36,7 +36,7 @@
 				    InformacoesTempo.Add("Frio e nublado");
 				    break;
 			    }
-            	await Task.Delay(1000);
+            		await Task.Delay(1000);
         	}
 
 		Console.WriteLine("Requisição completa!");
